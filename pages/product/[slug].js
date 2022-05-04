@@ -12,6 +12,7 @@ const ProductDetails = ({product, products}) => {
 
   return (
     <div>
+    
       <div className='product-detail-container'>
          
              <div className='image-container'>
