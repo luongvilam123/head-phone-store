@@ -104,7 +104,7 @@ export const getStaticPaths = async ()=>{
 
 export const getStaticProps = async ({ params: {slug} })=>{
 
-    const query = `*[_type == "product" && slug.current == '${slug}'][0]`;  //get all the product form sanity dashboard
+    const query = `*[_type == "product" && slug.current == '${slug}'][0]`;  //get the current clicked product
     const productsQuery = '*[_type == "product"]'; 
 
     const product = await client.fetch(query); 
