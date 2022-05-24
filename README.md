@@ -22,5 +22,6 @@
 4. Thực hiện câu lệnh npm run dev để tiến hành chạy app.
 
 5. Sanity setup bằng lệnh : npm install -g @sanity/cli
-6. gitignore : bỏ dấu / trước node_modules bên trong folder ecommerce
+6. gitignore : bỏ dấu / trước node_modules bên trong folder ecommerce.
 7. Các lệnh khác như sanity manage và sanity start để tương tác.
+8. Thêm "@babel/preset-react" trong file babelrc để tránh bị lỗi jsx không enabled. Chạy câu lệnh npm install --save-dev @babel/preset-react để tiến hành cài đặt.
