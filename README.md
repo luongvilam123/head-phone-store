@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cài đặt Ecommerce React Application dùng NextJs
 
-## Getting Started
+1. Thực hiện câu lệnh bên dưới terminal như sau : npx create-next-app.
 
-First, run the development server:
+2. Tiến hành cài đặt các dependencies cho project :
+"dependencies": {
+      "@babel/preset-react": "^7.16.7",
+     "@sanity/client": "3.2.0",
+     "@sanity/image-url": "1.0.1",
+     "@stripe/stripe-js": "1.25.0",
+     "canvas-confetti": "1.5.1",
+     "next": "12.1.0",
+     "next-sanity-image": "3.2.1",
+     "react": "17.0.2",
+     "react-dom": "17.0.2",
+     "react-hot-toast": "2.2.0",
+     "react-icons": "4.3.1",
+     "stripe": "8.209.0"
+    },
+3. Thực hiện câu lệnh : npm install --legacy-peer-deps để cài đặt đúng các phiên bản hiện tại.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+4. Thực hiện câu lệnh npm run dev để tiến hành chạy app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. Sanity setup bằng lệnh : npm install -g @sanity/cli
+6. gitignore : bỏ dấu / trước node_modules bên trong folder ecommerce
+7. Các lệnh khác như sanity manage và sanity start để tương tác.
