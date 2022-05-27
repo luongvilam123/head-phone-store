@@ -1,7 +1,7 @@
 export default {
- name: 'product',
- title: 'Product',
- type: 'document',
+ name: 'product', // This is the display name for the type
+ title: 'Product', // The identifier for this document type used in the api's
+ type: 'document', // Documents have the type 'document'
  fields: [
      {
          name: 'image',
@@ -16,7 +16,7 @@ export default {
      {
         name: 'name',
         title: 'Name',
-        type : 'string'
+        type : 'string' // tyoe of this field
      },
      {
         name: 'slug',
