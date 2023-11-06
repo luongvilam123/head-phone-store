@@ -1,5 +1,5 @@
-# Cài đặt Ecommerce React Application dùng NextJs
-https://ecommerce-tau-black.vercel.app/
+# A Little Head Phone Store For Real Gamer
+### Link to the website : https://ecommerce-tau-black.vercel.app/
 1. Thực hiện câu lệnh bên dưới terminal như sau : npx create-next-app.
 
 2. Tiến hành cài đặt các dependencies cho project :
